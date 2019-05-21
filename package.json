@@ -1,0 +1,50 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "@types/jest": "24.0.6",
+    "@types/node": "11.9.4",
+    "@types/radium": "^0.24.2",
+    "@types/react": "16.8.4",
+    "@types/react-dom": "16.8.2",
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "radium": "^0.25.1",
+    "react": "^16.8.2",
+    "react-dnd": "^7.0.2",
+    "react-dnd-html5-backend": "^7.0.2",
+    "react-dom": "^16.8.2",
+    "react-draggable": "^3.2.1",
+    "react-scripts": "2.1.5",
+    "react-simple-animate": "^2.6.9",
+    "react-spring": "^8.0.19",
+    "request": "2.79.0",
+    "tslint": "^5.13.0",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/classnames": "^2.2.7",
+    "tailwindcss": "0.7.4"
+  },
+  "proxy": "http://localhost:3002"
+}
